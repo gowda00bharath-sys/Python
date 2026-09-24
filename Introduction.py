@@ -1,62 +1,62 @@
-#Learning the Basic
+# #Learning the Basic
 
-print("hello bharath","i am god")
-print(23)
-print(23+7)
-name="Bharath"
-age=21
-price=20.11
-print("my name is :",name)
-print("my age is :", age)
-output=True
-a=None
+# print("hello bharath","i am god")
+# print(23)
+# print(23+7)
+# name="Bharath"
+# age=21
+# price=20.11
+# print("my name is :",name)
+# print("my age is :", age)
+# output=True
+# a=None
 
-# Knowing the Type of the data 
+# # Knowing the Type of the data 
 
-print(type(name))
-print(type(age))
-print(type(price))
-print(type(output))
-print(type(a))
+# print(type(name))
+# print(type(age))
+# print(type(price))
+# print(type(output))
+# print(type(a))
 
-# learning Operator
+# # learning Operator
 
-b=10
-c=29
-sum=b+c
-diff=b-c
-print(diff)
-print(sum)
+# b=10
+# c=29
+# sum=b+c
+# diff=b-c
+# print(diff)
+# print(sum)
 
-print(not True) # oprator useage
-print(not False) #Not operator useage
+# print(not True) # oprator useage
+# print(not False) #Not operator useage
 
-val1=False
-val2=False
+# val1=False
+# val2=False
 
-print(val1 and val2) # and operator
-print(val1 or val2) # or operator
+# print(val1 and val2) # and operator
+# print(val1 or val2) # or operator
 
-# # Typecasting
+# # # Typecasting
 
-d=int("2")
-e=8.23
-summ=d+e
-print(summ)
+# d=int("2")
+# e=8.23
+# summ=d+e
+# print(summ)
 
-namee="Bharath "
-lastname="gowda"
-add=namee+lastname
+# namee="Bharath "
+# lastname="gowda"
+# add=namee+lastname
 
-print(add)
+# print(add)
 
-# input taken from te user 
+# # input taken from te user 
 
-firstname=input("Enter your name")
-print("Welcome",firstname)
+# firstname=input("Enter your name")
+# print("Welcome",firstname)
 
-value=int(input("Enter a val"))
-print(type(value),value)
+# value=int(input("Enter a val"))
+# print(type(value),value)
 
 
 # Learning programing
@@ -65,4 +65,4 @@ n1 = int(input("Enter the first value "))
 n2=int(input("Enter the second vlaue"))
 
 pow=n1**n2
-print(pow)
+print("power of the two value :",pow)
