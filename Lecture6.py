@@ -111,15 +111,15 @@
 
 # print(fac(5))
 
-# list =["bharath","100","placed","working","software engineer"]
+list =["bharath","100","placed","working","software engineer"]
 
-# def recu(sow,n):
-#   if(n==-1):
-#     return
-#   print(sow[n]) 
-#   recu(sow,n-1)
+def recu(sow,n=0):
+  if(n==len(sow)):
+    return
+  print(sow[n]) 
+  recu(sow,n+1)
 
-# recu(list,4)
+recu(list)
  #
 
 #program recursion
